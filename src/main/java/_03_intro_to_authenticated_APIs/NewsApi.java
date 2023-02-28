@@ -1,4 +1,4 @@
-package _03_intro_to_authenticated_APIs;
+ package _03_intro_to_authenticated_APIs;
 
 import _03_intro_to_authenticated_APIs.data_transfer_objects.ApiExampleWrapper;
 import _03_intro_to_authenticated_APIs.data_transfer_objects.Article;
