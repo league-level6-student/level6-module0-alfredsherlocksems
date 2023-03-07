@@ -29,7 +29,7 @@ public class JeopardyRunner {
         		score += clue.getValue();
         	}
         }
-        JOptionPane.showMessageDialog(null, "Your score is + " + score);
+        JOptionPane.showMessageDialog(null, "Your score is " + score);
             //3. If i == 700 or i == 900, continue;
             //there are no questions for these values
 

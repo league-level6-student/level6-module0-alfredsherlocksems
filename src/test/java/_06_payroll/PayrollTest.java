@@ -1,6 +1,7 @@
 package _06_payroll;
 
 import org.junit.jupiter.api.Test;
+import org.opentest4j.AssertionFailedError;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -10,29 +11,17 @@ class PayrollTest {
 
     @Test
     void itShouldCalculatePaycheck() {
-        //given
-
-        //when
-
-        //then
+    	assertEquals(4, payroll.calculatePaycheck(2, 2));
     }
 
     @Test
     void itShouldCalculateMileageReimbursement() {
-        //given
-
-        //when
-
-        //then
+        assertEquals(575, payroll.calculateMileageReimbursement(1000));
     }
 
     @Test
     void itShouldCreateOfferLetter() {
-        //given
-
-        //when
-
-        //then
+        assertEquals("Hello Bob, We are pleased to offer you an hourly wage of 10.0", payroll.createOfferLetter("Bob", 10));
     }
 
 }
